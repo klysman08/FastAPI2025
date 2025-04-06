@@ -134,6 +134,7 @@ dependencies = [
     { name = "httptools" },
     { name = "httpx" },
     { name = "idna" },
+    { name = "ignr" },
     { name = "iniconfig" },
     { name = "jinja2" },
     { name = "markdown-it-py" },
@@ -184,6 +185,7 @@ requires-dist = [
     { name = "httptools", specifier = "==0.6.4" },
     { name = "httpx", specifier = "==0.28.1" },
     { name = "idna", specifier = "==3.10" },
+    { name = "ignr", specifier = "==2.2" },
     { name = "iniconfig", specifier = "==2.1.0" },
     { name = "jinja2", specifier = "==3.1.6" },
     { name = "markdown-it-py", specifier = "==3.0.0" },
@@ -297,6 +299,15 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/f1/70/7703c29685631f5a7590aa73f1f1d3fa9a380e654b86af429e0934a32f7d/idna-3.10.tar.gz", hash = "sha256:12f65c9b470abda6dc35cf8e63cc574b1c52b11df2c86030af0ac09b01b13ea9", size = 190490 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/76/c6/c88e154df9c4e1a2a66ccf0005a88dfb2650c1dffb6f5ce603dfbd452ce3/idna-3.10-py3-none-any.whl", hash = "sha256:946d195a0d259cbba61165e88e65941f16e9b36ea6ddb97f00452bae8b1287d3", size = 70442 },
+]
+
+[[package]]
+name = "ignr"
+version = "2.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/cb/df/a3e6a5f702ad1e7901e20749d6e4efec9157a3da993111eb6a3ace9650d0/ignr-2.2.tar.gz", hash = "sha256:382a81be67a34538a11ff8ab69063419b388cc32f01b4ace599c3f1c06526df4", size = 4466 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/77/40/e8e8c621eb1aff111d79d8c3213072534bda9a9d76ba087db07cb17dc551/ignr-2.2-py3-none-any.whl", hash = "sha256:e8b6276aedab79b066d795e6e4b3f7b4c5668b68bf50a6c4fbf2b0cd17dda1db", size = 4309 },
 ]
 
 [[package]]
